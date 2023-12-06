@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    background-image:url("https://img.freepik.com/vetores-premium/noite-magica-ceu-azul-escuro-com-ilustracao-de-estrelas-cintilantes_117261-27.jpg?w=740");
+    background-repeat: no-repeat;
+    background-image: cover;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    
+}
+
+h1{
+    text-align:center;
+    color:white;
+    font-weight: bold;
+}
+
+button{
+    border-radius:7px;
+    font-size: 20px;
+    margin-left:10px;
+    cursor:pointer;
+    color:blue;
+    background-color: yellow;
+}
+
+
+@media screen and (max-width:100vw) {
+    body{
+        background-image:url("https://img.freepik.com/vetores-premium/noite-magica-ceu-azul-escuro-com-ilustracao-de-estrelas-cintilantes_117261-27.jpg?w=740");
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}
